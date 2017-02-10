@@ -11,7 +11,7 @@
 !function(){function t(t){for(var e=0,o=(""+t).replace("_",".").replace(/[^0-9.]/g,"").split("."),a=0;a<o.length;++a)e+=Number(o[a])/Math.pow(10,3*a);return e}var e="1.7.1";if("undefined"==typeof jQuery)throw"jQuery not found. The WebDocumentViewer requires jQuery version "+e+" or later.";if(t(jQuery().jquery)<t(e))throw"Early jQuery version found: "+jQuery().jquery+", version expected: "+e;jQuery.isFunction(jQuery.fn.parseVersionFloat)||(jQuery.parseVersionFloat=t,jQuery.fn.parseVersionFloat=t)}();/**
 * Main Atalasoft Namespace definition(s)
 */
-var Atalasoft=jQuery.extend(!0,{},Atalasoft,{$:jQuery,Annotations:{},Controls:{},Document:{},Forms:{},Text:{},Utils:{}});!function(){Atalasoft.Controls.Version=[10,7,0,3345];var t={instanceCounter:0};/**
+var Atalasoft=jQuery.extend(!0,{},Atalasoft,{$:jQuery,Annotations:{},Controls:{},Document:{},Forms:{},Text:{},Utils:{}});!function(){Atalasoft.Controls.Version=[10,7,0,3336];var t={instanceCounter:0};/**
 * Control that views, modifies, and saves documents, annotations and forms.
 * @param settings Object of key value pairs representing initial settings
 * @returns A new control with the given settings.
