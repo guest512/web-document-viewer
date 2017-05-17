@@ -51,7 +51,7 @@
     box-sizing: content-box;
 }
 
-.atala_page_div, .atala_dom_edge_first, .atala_dom_edge_last  {
+.atala_page_div, .atala_dom_edge_first, .atala_dom_edge_last {
     vertical-align: top;    
 }
 
@@ -88,4 +88,10 @@
 
 .atala_thumb_caption, .atala_page_number{
     font-size: medium
+}
+
+.atala_drag_placeholder {
+    /* override placeholder width/height using !important modifier if needed */
+    border: 1px solid #BBBBBB;
+    vertical-align: middle;
 }
