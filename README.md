@@ -12,7 +12,7 @@ You can install this package locally with bower.io.
 # To get the latest stable version, use bower from the command line.
 bower install web-document-viewer
 
-# To get the specific 10.7.0 version use:
+# To get the specific 10.7.0 version use: 
 bower install web-document-viewer#10.7.0
 
 # To save the bower settings for future use:
